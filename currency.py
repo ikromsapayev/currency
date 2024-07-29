@@ -23,4 +23,7 @@ requested_data = send_req(url)
 makeJS = makeJson(requested_data)
 summa = get_uzbeksum(makeJS)
 
+def hellofunc():
+    return "Hello function"
+
 print(summa)
